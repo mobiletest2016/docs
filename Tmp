@@ -1,0 +1,10 @@
+Design and implement real-time streaming ETL / feature pipelines (e.g., Flink or Spark Structured Streaming) that meet strict freshness and correctness constraints.
+Build and operate reliable messaging and ingestion with Kafka/Pulsar (partitioning strategy, retries, ordering guarantees, DLQs, backpressure handling).
+Own data contracts between producers, pipelines, and consumers: schema evolution, versioning, compatibility, validation, and safe rollout.
+Implement production-grade backfill/replay workflows 
+Define and meet SLOs using OpenTelemetry/Prometheus/Grafana for metrics, tracing, dashboards, alerting, and incident response readiness.
+Integrate pipelines with online stores/caches and ML consumers (feature stores, embedding pipelines, LLM API calls, online/offline consistency patterns).
+Partner with applied scientists on feature/embedding definitions, validation, and end-to-end quality measurement.
+Optimize end-to-end performance and efficiency: CPU/memory/I/O, serialization, caching, network overhead, concurrency, and pipeline compute cost.
+Contribute to serving/inference integrations where needed (e.g., Triton/ONNX Runtime/TensorRT) including batching and latency/cost tradeoffs.
+Ship safely with CI/CD, automated testing (unit/integration/data quality), and operational playbooks/runbooks.
